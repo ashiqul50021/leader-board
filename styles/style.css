@@ -3,8 +3,60 @@
 body{
     font-family: 'Poppins', sans-serif;
     background-color: #F3F1FF;
+    margin: 0;
 
 }
+
+/* header */
+.container-nav{
+    display: flex;
+  
+    background:  #562EFF;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 285px;
+    margin-bottom: 90px;
+    
+    
+  }
+    
+ 
+  .nav-icon{
+    display: flex;
+    align-items: center; 
+  }
+  .nav-icon h1{
+    padding-left: 16px;
+    color: #ffff;
+    cursor: pointer;
+  }
+  .nav-icon img{
+    width: 40px;
+    height: 50px;
+    cursor: pointer;
+  }
+  .navber{
+    display: flex;
+    align-items: center;
+  }
+  .navber a{
+    padding:0px 18px ;
+    text-decoration: none;
+    font-size: 16px;
+    color: #ffff;
+  }
+  .navber img{
+    width: 51px;
+    height: 51px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  .navber a:hover{
+    text-decoration: underline;
+    text-decoration-color: rgb(13, 185, 216); 
+    color: #000;
+  }
+
 main{
     display: flex;
     justify-content: center;
