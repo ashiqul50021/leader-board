@@ -147,3 +147,13 @@ hr{
     }
     
 }
+/* table devices */
+@media only screen and (min-width:688px) and (max-width:992px) {
+    .players, .courses{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .blogs{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+}
